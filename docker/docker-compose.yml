@@ -32,6 +32,7 @@ services:
       - TRAVIS_COMMIT=${TRAVIS_COMMIT}
       - TRAVIS_DURATION=${TRAVIS_DURATION:-0}
       - TRAVIS_BRANCH=${TRAVIS_BRANCH}
+      
     volumes:
       - ../src:/app/src
       - ../test:/app/test
